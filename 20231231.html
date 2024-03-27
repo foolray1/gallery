@@ -22,7 +22,15 @@
 			.block_work:hover {
 				border-color:#333333 ;
 			}
-			
+			.block_work a {
+				display:inline-block;
+				width:100%;
+				text-align:right;
+				z-index:1;
+			}
+			.block_work a[target]:before {
+				content: '(另開)';
+			}
 			.block_work .tab_work {
 				width:100%;
 				table-layout:fixed;
@@ -44,15 +52,7 @@
 		
 				vertical-align:top;
 			}
-			.tab_work a {
-				display:inline-block;
-				width:100%;
-				text-align:right;
-				z-index:1;
-			}
-			.tab_work a[target]:before {
-				content: '(另開)';
-			}
+			
 			.tab_work .td1 {
 				width:40%;
 			}
