@@ -10,6 +10,18 @@
     <body >
 		<style >
 			.block_work {
+				padding:6px;
+				margin-bottom:12px;
+				
+				-webkit-border-radius: 12px;
+				border-radius: 12px;
+				
+				border-bottom:2px solid transparent ;
+			}
+			.block_work:hover {
+				border-color:#333333 ;
+			}
+			.block_work a {
 				
 			}
 			.block_work .tab_work {
@@ -27,11 +39,27 @@
 				max-height:40vh;
 			}
 			.tab_work td {
+				position:relative;
+		
 				vertical-align:top;
+			}
+			.tab_work a {
+				position:absolute;
+				bottom:6px;
+				right:6px;
+				display:inline-block;
+				width:100%;
+				z-index:1;
+			}
+			.tab_work a[target]:before {
+				content: '(另開)';
 			}
 			.tab_work .td1 {
 				width:40%;
 			}
+			
+				
+		
 			
 		</style>	
 	
@@ -50,8 +78,7 @@
 									</td>	
 									<td class='td2' >
 										<p>PHP CI，負責網站維護和搬遷。</p>
-										
-										<a href='http://www.kuenling.com.tw/index/' target='_blank' >(新頁)http://www.kuenling.com.tw/index/</a>
+										<a href='http://www.kuenling.com.tw/index/' target='_blank' >http://www.kuenling.com.tw/index/</a>
 									</td>
 								</tr>
 							</table>		
@@ -69,7 +96,7 @@
 								<td class='td2' >
 									<p>PHP+自製框架而成，負責網站維護和搬遷。</p>
 									
-									<a href='http://m.derfeng.com.tw/' target='_blank' >(新頁)http://m.derfeng.com.tw/</a>
+									<a href='http://m.derfeng.com.tw/' target='_blank' >http://m.derfeng.com.tw/</a>
 								</td>
 							</tr>
 						</table>		
@@ -88,7 +115,7 @@
 								</td>	
 								<td class='td2' >
 									<p>PHP CI，負責網站維護和搬遷。</p>
-									<a href='http://www.kbj.com.tw/index/' target='_blank' >(新頁)http://www.kbj.com.tw/index/</a>
+									<a href='http://www.kbj.com.tw/index/' target='_blank' >http://www.kbj.com.tw/index/</a>
 								</td>
 							</tr>
 						</table>		
@@ -107,7 +134,7 @@
 								</td>	
 								<td class='td2' >
 									<p>PHP+自製框架而成，負責網站維護和搬遷。</p>
-									<a href='http://www.minjoint.com/' target='_blank' >(新頁)http://www.minjoint.com/</a>
+									<a href='http://www.minjoint.com/' target='_blank' >http://www.minjoint.com/</a>
 								</td>
 							</tr>
 						</table>		
@@ -125,7 +152,7 @@
 								</td>	
 								<td class='td2' >
 									<p>PHP+自製框架而成，負責網站維護和搬遷</p>
-									<a href='http://www.kfppa.org.tw/' target='_blank' >(新頁)http://www.kfppa.org.tw/</a>
+									<a href='http://www.kfppa.org.tw/' target='_blank' >http://www.kfppa.org.tw/</a>
 								</td>
 							</tr>
 						</table>		
@@ -143,7 +170,7 @@
 								</td>	
 								<td class='td2' >
 									<p>PHP+自製框架而成+mysql，負責網站維護和搬遷。</p>
-									<a href='http://高雄市珍愛關懷協會.台灣/' target='_blank' >(新頁)http://高雄市珍愛關懷協會.台灣/</a>
+									<a href='http://高雄市珍愛關懷協會.台灣/' target='_blank' >http://高雄市珍愛關懷協會.台灣/</a>
 								</td>
 							</tr>
 						</table>		
@@ -162,7 +189,7 @@
 								</td>	
 								<td class='td2' >
 									<p>PHP+自製框架而成+mysql，負責網站維護和搬遷。</p>
-									<a href='http://www.jinharng.com' target='_blank' >(新頁)http://www.jinharng.com/</a>
+									<a href='http://www.jinharng.com' target='_blank' >http://www.jinharng.com/</a>
 								</td>
 							</tr>
 						</table>		
@@ -180,7 +207,7 @@
 								</td>	
 								<td class='td2' >
 									<p>負責網站開發、維護和搬遷，PHP+Mysql+自製框架而成。</p>
-									<a href='https://www.merit4you.org/' target='_blank' >(新頁)https://www.merit4you.org/</a>
+									<a href='https://www.merit4you.org/' target='_blank' >https://www.merit4you.org/</a>
 								</td>
 							</tr>
 						</table>		
@@ -198,7 +225,7 @@
 								</td>	
 								<td class='td2' >
 									<p>負責網站維護和搬遷，PHP+Mysql+自製框架而成。</p>
-									<a href='http://www.khcoc.org.tw/' target='_blank' >(新頁)http://www.khcoc.org.tw/</a>
+									<a href='http://www.khcoc.org.tw/' target='_blank' >http://www.khcoc.org.tw/</a>
 								</td>
 							</tr>
 						</table>		
@@ -216,7 +243,7 @@
 								</td>	
 								<td class='td2' >
 									<p>負責網站維護和搬遷，PHP+Mysql+自製框架而成。</p>
-									<a href='http://dgsw.com.tw/' target='_blank' >(新頁)http://dgsw.com.tw/</a>
+									<a href='http://dgsw.com.tw/' target='_blank' >http://dgsw.com.tw/</a>
 								</td>
 							</tr>
 						</table>		
@@ -234,7 +261,7 @@
 								</td>	
 								<td class='td2' >
 									<p>負責網站維護和搬遷，PHP+Mysql+自製框架而成。</p>
-									<a href='http://corporation.5ihealthy.com/' target='_blank' >(新頁)http://corporation.5ihealthy.com/</a>
+									<a href='http://corporation.5ihealthy.com/' target='_blank' >http://corporation.5ihealthy.com/</a>
 								</td>
 							</tr>
 						</table>		
@@ -252,7 +279,7 @@
 								</td>	
 								<td class='td2' >
 									<p>負責網站維護和搬遷，PHP+Mysql+自製框架而成。</p>
-									<a href='https://www.horngshan.com.tw/index/' target='_blank' >(新頁)https://www.horngshan.com.tw/index/</a>
+									<a href='https://www.horngshan.com.tw/index/' target='_blank' >https://www.horngshan.com.tw/index/</a>
 								</td>
 							</tr>
 						</table>		
@@ -270,7 +297,7 @@
 								</td>	
 								<td class='td2' >
 									<p>負責網站維護和搬遷，PHP+Mysql+自製框架而成。</p>
-									<a href='http://www.chief-village.com/' target='_blank' >(新頁)http://www.chief-village.com/</a>
+									<a href='http://www.chief-village.com/' target='_blank' >http://www.chief-village.com/</a>
 								</td>
 							</tr>
 						</table>		
@@ -288,7 +315,7 @@
 								</td>	
 								<td class='td2' >
 									<p>負責網站維護和搬遷，PHP+Mysql+自製框架而成。</p>
-									<a href='http://ai-robot-stsp.tw/index/' target='_blank' >(新頁)http://ai-robot-stsp.tw/index/</a>
+									<a href='http://ai-robot-stsp.tw/index/' target='_blank' >http://ai-robot-stsp.tw/index/</a>
 								</td>
 							</tr>
 						</table>		
