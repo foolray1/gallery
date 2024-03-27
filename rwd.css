@@ -9,7 +9,9 @@ min-width : 1600px		//超寬版 以下
 /*
 -pull,-push,-offset 廢棄
 */
-
+body {
+text-align:center;
+}
 .container {
 	display: inline-block;
 	width: 100% ;
@@ -18,7 +20,7 @@ min-width : 1600px		//超寬版 以下
 	
 	padding-right: var(--edge);
 	padding-left: var(--edge);
-	
+	text-align:left;
 	/*邊緣的間距*/
 	--edge: 15px;
 }
